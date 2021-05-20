@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #999999;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+}
+
+header div {
+    display: flex;
+    margin-left: 15%;
+}
+
+hgroup {
+    color: #FF0000;
+}
+
+#contact {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    margin-top: 2vh;
+}
+
+#contact h3 {
+    display: none;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 20% auto;
+    line-height: 4vh;
+}
+
+dt {
+	background: #FF0000;
+    color: #FFFAFA;
+    grid-column: 1;
+}
+
+dd {
+    background: #000000;
+    color: #FF0000;
+    grid-column: 2;
+}
+
+dd a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50% 30%;
+    padding: 5% 15% 0% 15%;
+}
+
+h3 {
+    border-bottom: #CCCCCC solid 1px;
+    padding-bottom: 2%;
+}
+
+h3::before {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+#about p {
+    margin-top: 3%;
+}
+
+.skills {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-primary::before {
+    content: "Main";
+    padding-bottom: 1%;
+}
+
+.skills-primary .skill {
+    width: 100%;
+    background-color: #CCCCCC;
+    line-height: 5vh;   
+    margin-bottom: 1%;
+}
+
+.skills-primary div:first-child span {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-indent: 2%;
+}
+
+.skills-primary div:nth-child(2) span {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-indent: 2%;
+}
+
+.skills-primary div:last-child span {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-indent: 5%;
+}
+
+.skills-secondary::before {
+    content: "Other";
+    padding-bottom: 1%;
+}
+
+.skills-secondary .skill {
+    width: 100%;
+    background-color: #CCCCCC;
+    line-height: 5vh; 
+    margin-bottom: 1%;  
+    opacity: 0.7;
+}
+
+.skills-secondary div:first-child span {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-indent: 2%;
+}
+
+.skills-secondary div:nth-child(2) span {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-indent: 2%;
+}
+
+.skills-secondary div:last-child span {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-indent: 2%;
+}
+
+#competencies {
+    margin-bottom: 5%;
+}
+
+.experience {
+    margin-top: 5%;
+}
+
+h4 {
+    color: #FF0000;
+}
+
+.experience-type {
+    font-size: 20px;
+}
+
+.experience-institution::before {
+    content: "@ ";
+}
+
+.experience-details {
+    margin-left: 4%;
+    margin-bottom: 3%;
+    color: #AFAFAF;
+}
+
+.experience-details::before {
+    content: "In ";
+}
+
+.experience-date-separator {
+    color: #FF0000;
+}
+
+ul {
+    margin-top: 5%;
+    margin-left: 10%;
+}
