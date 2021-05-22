@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 481px){
     * {
         margin: 0;
         padding: 0;
@@ -300,6 +300,188 @@
         display: flex;
         margin-left: 15%;
     }
+}
+@media screen and (max-width: 480px){
 
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
+    figure, hgroup h2, #about h3 {
+        display: none;
+    }
 
+    hgroup h1 {
+        border-bottom: #B6B6B6 solid 1px;
+        padding-bottom: 2%;
+    }
+
+    .content {
+        max-width: 90%;
+        margin: auto;
+        display: grid;
+        row-gap: 7%;
+        grid-template-columns: auto;
+    }
+
+    #about {
+        color: #B6B6B6;
+        font-style: italic;
+        
+    }
+
+    h3 {
+        border-bottom: black solid 1px;
+        font-style: italic;
+        width: 25%;
+        margin-bottom: 7%;
+    }
+
+    #competencies {
+        display: grid;
+        row-gap: 7%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .skills-primary div {
+        width: 30%;
+        height: 8vh;
+        color: #FFFFFF;
+        background-color: #008080;
+    }
+
+    .skills-primary div span {
+        /**************************************/
+        margin-left: 8%;
+        font-size: 18px;
+    }
+    
+    .skills-primary div:first-child span::after {
+        content: "\2605 \2605 \2605";
+        margin-left: 15%;
+    }
+
+    .skills-primary div:nth-child(2) span::after {
+        content: "\2605 \2605";
+        margin-left: 37%;
+    }
+
+    .skills-primary div:last-child span::after {
+        content: "\2605";
+        margin-left: 20%;
+    }
+
+    .skills-secondary div {
+        width: 30%;
+        height: 6vh;
+        color: #FFFFFF;
+        background-color: #008080;
+    }
+
+    .skills-secondary div span {
+        /**************************************/
+        margin-left: 8%;
+        font-size: 12px;
+    }
+    
+    .skills-secondary div:first-child span::after {
+        content: "\2605 \2605 \2605 \2605 \2605";
+        margin-left: 25%;
+    }
+
+    .skills-secondary div:nth-child(2) span::after {
+        content: "\2605 \2605 \2605";
+        margin-left: 45%;
+    }
+
+    .skills-secondary div:last-child span::after {
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 20%;
+    }
+
+    .experience-institution {
+        display: none;
+    }
+
+    .experience {
+        display: grid;
+        grid-template-areas: "exptype location"
+                             "descrip descrip";
+    }
+
+    .experience h4 {grid-area: exptype;}
+    .experience div {grid-area: location;}
+    .experience p {grid-area: descrip;}
+
+    .experience-type {
+        color: #008080;
+    }
+
+    .experience-details {
+        margin-left: auto;
+        margin-right: 0;
+        color: #B6B6B6;
+    }
+
+    span .experience-date-separator {
+        color: #008080;
+    }
+
+    h4 {
+        margin-bottom: 10%;
+    }
+
+    .experience-description {
+        margin-bottom: 10%;
+    }
+
+    ul {
+        margin-left: 10%;
+    }
+
+    .contact-type {
+        display: none;
+    }
+
+    #contact h3{
+        display: none;
+    }
+
+    dl.contact.contact-email {
+        height: 20%;
+        width: 20%;
+        content: url(../images/email.png);
+    }
+
+    dl.contact.contact-skype {
+        display: none;
+    }
+
+    dl.contact.contact-phone {
+        height: 20%;
+        width: 20%;
+        content: url(../images/phone.png);
+    }
+
+    dl.contact.contact-github {
+        height: 20%;
+        width: 20%;
+        content: url(../images/github.png);
+    }
+
+    dl.contact.contact-facebook {
+        height: 20%;
+        width: 20%;
+        content: url(../images/facebook.png);
+    }
+
+    .contacts {
+        display: flex;
+    }
+}
