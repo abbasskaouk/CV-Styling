@@ -1,0 +1,305 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        max-width: 60%;
+        margin: auto;
+    }
+
+    h3 {
+        border-right: black solid 1px;
+        font-style: italic;
+    }
+
+    header {
+        position: relative;
+    }
+
+    hgroup h2 {
+        display: none;
+    }
+
+    hgroup h1 {
+        border-bottom: #B6B6B6 solid 1px;
+        padding-bottom: 2%;
+    }
+
+    figure {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 2%;
+        transform: rotate(-20deg);
+    }
+
+    figure img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .content {
+        display: grid;
+        row-gap: 7%;
+        grid-template-columns: auto;
+        grid-template-rows: auto 15% 40% 40% 10%;
+    }
+
+    #about h3 {
+        display: none;
+    }
+
+    #about {
+        color: #B6B6B6;
+        width: 80%;
+        font-style: italic;
+    }
+
+    #competencies {
+        display: grid;
+        grid-template-columns: 14% auto;
+        grid-template-areas: "title skills1"
+                             "title skills2";
+    }
+
+    #competencies h3 {grid-area: title;}
+    #competencies .skills-primary {grid-area: skills1;}
+    #competencies .skills-secondary {grid-area: skills2;}
+
+    .skills-primary {
+        display: flex;
+    }
+
+    .skills-secondary {
+        display: flex;
+    }
+
+    .skills-primary div:first-child {
+        width: 20%;
+        height: 6vh;
+        color: #FFFFFF;
+        background-color: #008080;
+        line-height: 5vh;   
+        margin-left: 2%;
+    }
+
+    .skills-primary div:nth-child(2) {
+        width: 20%;
+        height: 6vh;
+        color: #FFFFFF;
+        background-color: #008080;
+        line-height: 5vh;
+        margin-left: 2%;
+    }
+
+    .skills-primary div:last-child {
+        width: 20%;
+        height: 6vh;
+        color: #FFFFFF;
+        background-color: #008080;
+        line-height: 5vh;
+        margin-left: 2%;  
+    }
+
+    .skills-primary div:first-child span {
+        vertical-align: middle;
+        margin-left: 5%;
+    }
+
+    .skills-primary div:first-child span::after {
+        content: "\2605 \2605 \2605";
+        margin-left: 30%;
+    }
+
+    .skills-primary div:nth-child(2) span {
+        vertical-align: middle;
+        margin-left: 5%;
+    }
+
+    .skills-primary div:nth-child(2) span::after {
+        content: "\2605 \2605";
+        margin-left: 40%;
+    }
+
+    .skills-primary div:last-child span {
+        vertical-align: middle;
+        margin-left: 5%;
+    }
+
+    .skills-primary div:last-child span::after {
+        content: "\2605";
+        margin-left: 30%;
+    }
+
+    .skills-secondary div:first-child {
+        width: 20%;
+        height: 5vh;
+        color: #FFFFFF;
+        background-color: #008080;
+        line-height: 5vh;   
+        margin-left: 2%;
+    }
+
+    .skills-secondary div:nth-child(2) {
+        width: 20%;
+        height: 5vh;
+        color: #FFFFFF;
+        background-color: #008080;
+        line-height: 5vh;
+        margin-left: 2%;
+    }
+
+    .skills-secondary div:last-child {
+        width: 20%;
+        height: 5vh;
+        color: #FFFFFF;
+        background-color: #008080;
+        line-height: 5vh;
+        margin-left: 2%;  
+    }
+
+    .skills-secondary div:first-child span {
+        vertical-align: middle;
+        margin-left: 5%;
+        font-size: 10px;
+    }
+
+    .skills-secondary div:first-child span::after {
+        content: "\2605 \2605 \2605 \2605 \2605";
+        margin-left: 40%;
+    }
+
+    .skills-secondary div:nth-child(2) span {
+        vertical-align: middle;
+        margin-left: 5%;
+        font-size: 10px;
+    }
+
+    .skills-secondary div:nth-child(2) span::after {
+        content: "\2605 \2605 \2605";
+        margin-left: 50%;
+    }
+
+    .skills-secondary div:last-child span {
+        vertical-align: middle;
+        margin-left: 5%;
+        font-size: 10px;
+    }
+
+    .skills-secondary div:last-child span::after {
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 30%;
+    }
+
+    #experiences {
+        display: grid;
+        grid-template-columns: 14% auto;
+        grid-template-areas: "title exp1"
+                             "title exp2";
+    }
+
+    #experiences h3 {grid-area: title;}
+    #experiences div:first-child {grid-area: exp1;}
+    #experiences div:last-child {grid-area: exp2;}
+
+
+
+    .experience {
+        display: grid;
+        margin-left: 2%;
+        grid-template-areas: "exptype location"
+                             "descrip descrip";
+    }
+
+    .experience h4 {grid-area: exptype;}
+    .experience div {grid-area: location;}
+    .experience p {grid-area: descrip;}
+
+    .experience-type {
+        color: #008080;
+    }
+
+    .experience-institution {
+        display: none;
+    }
+
+    .experience-details {
+        margin-left: auto;
+        margin-right: 0;
+        color: #B6B6B6;
+    }
+
+    span .experience-date-separator {
+        color: #008080;
+    }
+
+    #education {
+        display: grid;
+        grid-template-columns: 14% auto;
+        grid-template-areas: "title edu1"
+                             "title edu2";
+    }
+
+    #education h3 {grid-area: title;}
+    #education div:first-child {grid-area: edu1;}
+    #education div:last-child {grid-area: edu2;}
+
+
+    #hobbies {
+        display: grid;
+        grid-template-columns: 14% auto;
+        grid-template-areas: "title hobb";
+    }
+
+    #hobbies h3 {grid-area: title;}
+    #hobbies ul {grid-area: hobb;}
+
+    ul {
+        margin-left: 8%;
+    }
+
+    #contact h3{
+        display: none;
+    }
+
+    .contact-type {
+        display: none;
+    }
+
+    dl.contact.contact-email {
+        height: 20%;
+        width: 20%;
+        content: url(../images/email.png);
+    }
+
+    dl.contact.contact-skype {
+        display: none;
+    }
+
+    dl.contact.contact-phone {
+        height: 20%;
+        width: 20%;
+        content: url(../images/phone.png);
+    }
+
+    dl.contact.contact-github {
+        height: 20%;
+        width: 20%;
+        content: url(../images/github.png);
+    }
+
+    dl.contact.contact-facebook {
+        height: 20%;
+        width: 20%;
+        content: url(../images/facebook.png);
+    }
+
+    .contacts {
+        display: flex;
+        margin-left: 15%;
+    }
+
+
+
