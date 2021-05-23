@@ -109,8 +109,8 @@
     }
 
     .skills-primary div:first-child span::after {
-        content: "\2605 \2605 \2605";
-        margin-left: 30%;
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 20%;
     }
 
     .skills-primary div:nth-child(2) span {
@@ -119,8 +119,8 @@
     }
 
     .skills-primary div:nth-child(2) span::after {
-        content: "\2605 \2605";
-        margin-left: 40%;
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 30%;
     }
 
     .skills-primary div:last-child span {
@@ -129,8 +129,8 @@
     }
 
     .skills-primary div:last-child span::after {
-        content: "\2605";
-        margin-left: 30%;
+        content: "\2605 \2605";
+        margin-left: 25%;
     }
 
     .skills-secondary div:first-child {
@@ -167,8 +167,8 @@
     }
 
     .skills-secondary div:first-child span::after {
-        content: "\2605 \2605 \2605 \2605 \2605";
-        margin-left: 40%;
+        content: "\2605 \2605 \2605 \2605 ";
+        margin-left: 30%;
     }
 
     .skills-secondary div:nth-child(2) span {
@@ -178,8 +178,8 @@
     }
 
     .skills-secondary div:nth-child(2) span::after {
-        content: "\2605 \2605 \2605";
-        margin-left: 50%;
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 40%;
     }
 
     .skills-secondary div:last-child span {
@@ -189,8 +189,8 @@
     }
 
     .skills-secondary div:last-child span::after {
-        content: "\2605 \2605 \2605 \2605";
-        margin-left: 30%;
+        content: "\2605 \2605 \2605";
+        margin-left: 50%;
     }
 
     #experiences {
@@ -363,18 +363,18 @@
     }
     
     .skills-primary div:first-child span::after {
-        content: "\2605 \2605 \2605";
-        margin-left: 15%;
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 5%;
     }
 
     .skills-primary div:nth-child(2) span::after {
-        content: "\2605 \2605";
-        margin-left: 37%;
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 15%;
     }
 
     .skills-primary div:last-child span::after {
-        content: "\2605";
-        margin-left: 20%;
+        content: "\2605 \2605";
+        margin-left: 10%;
     }
 
     .skills-secondary div {
@@ -391,18 +391,18 @@
     }
     
     .skills-secondary div:first-child span::after {
-        content: "\2605 \2605 \2605 \2605 \2605";
-        margin-left: 25%;
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 10%;
     }
 
     .skills-secondary div:nth-child(2) span::after {
-        content: "\2605 \2605 \2605";
-        margin-left: 45%;
+        content: "\2605 \2605 \2605 \2605";
+        margin-left: 25%;
     }
 
     .skills-secondary div:last-child span::after {
-        content: "\2605 \2605 \2605 \2605";
-        margin-left: 20%;
+        content: "\2605 \2605 \2605";
+        margin-left: 40%;
     }
 
     .experience-institution {
